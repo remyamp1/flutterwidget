@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_july2024/.git/Listviewseparated.dart';
 import 'package:flutter_july2024/appbar.dart';
 import 'package:flutter_july2024/bottom_navigation.dart';
+import 'package:flutter_july2024/colum.dart';
+import 'package:flutter_july2024/container_widget.dart';
+import 'package:flutter_july2024/rowwidget.dart';
 import 'package:flutter_july2024/textwidget.dart';
 void main()
 {
@@ -15,7 +19,7 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       
-      home:  Textwidget(),
+      home:Listviewseparated(),
     );
   }
 }
